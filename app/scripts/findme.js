@@ -1,11 +1,10 @@
-var myLayer = L.mapbox.featureLayer().addTo(map);
+var meLayer = L.mapbox.featureLayer().addTo(map);
+
 
 $(function(){
 
     console.log('findme.js loaded');
     memap.init();
-
-    // var map;
     
 });
 
@@ -37,7 +36,7 @@ var memap = {
         map.on('locationfound', function(e) {
             map.fitBounds(e.bounds);
 
-            myLayer.setGeoJSON({
+            meLayer.setGeoJSON({
                 type: 'Feature',
                 geometry: {
                     type: 'Point',
