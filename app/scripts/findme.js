@@ -45,7 +45,8 @@ var memap = {
                 properties: {
                     'title': 'Here I am!',
                     'marker-color': '#ff8888',
-                    'marker-symbol': 'star'
+                    'marker-symbol': 'star',
+                    'popupContetn':'Here I am!'
                 }
             });
 

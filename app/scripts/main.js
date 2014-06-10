@@ -2,7 +2,6 @@ var map = L.mapbox.map('map', 'brookebc.if5olg5a', {
                     scrollWheelZoom: false
                 }).setView([32.907, -79.802], 9);
 
-
 $(function(){
 
 	console.log('main.js loaded');
@@ -18,8 +17,7 @@ var beachmap = {
 	},
 	initEvents: function() {
 		$('.findbeaches').on('click', '.beachme', this.addBeaches);
-
-	},
+		
 	initStyling: function() {
 		// this.addLayer(L.geoJson(beachPoints));
 		// this.addBeaches(L.mapbox.featureLayer(beachLayer));
@@ -32,7 +30,11 @@ var beachmap = {
 
 		// L.geoJson(beachPoints).addTo(map);
 		L.mapbox.featureLayer(beachPoints).addTo(map);
+	},
+	addWeather: function(){
+		console.log('this is the weather');
 	}
+
 };
 
 

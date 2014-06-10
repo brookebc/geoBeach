@@ -56,7 +56,7 @@ var beachPoints = [
 		"amenity": "free-parking",
 		"marker-color": "#1087bf",
 		"marker-size": "medium",
-		"marker-symbol": "swimming"
+		"marker-symbol": "fast-food"
 		},
     	"geometry": {
       		"type": "Point",
@@ -88,7 +88,7 @@ var beachPoints = [
 		"amenity": "free-parking",
 		"marker-color": "#1087bf",
 		"marker-size": "medium",
-		"marker-symbol": "swimming"
+		"marker-symbol": "fast-food"
 		},
     	"geometry": {
       		"type": "Point",
