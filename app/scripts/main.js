@@ -12,17 +12,13 @@ $(function(){
 var beachmap = {
 
 	init: function() {
-		this.initStyling();
+		// this.initStyling();
 		this.initEvents();
 	},
 	initEvents: function() {
 		$('.findbeaches').on('click', '.beachme', this.addBeaches);
+		$('#map').on('click', '.showdetail',this.seeDetail);
 		
-	initStyling: function() {
-		// this.addLayer(L.geoJson(beachPoints));
-		// this.addBeaches(L.mapbox.featureLayer(beachLayer));
-		// beachmap.addLayer(L.geoJson(beachPoints,{ onEachFeature: beachmap.onEachFeature }),'popup marker', 2);
-
 	},
 	addBeaches: function(event) {
 		event.preventDefault();
@@ -31,8 +27,12 @@ var beachmap = {
 		// L.geoJson(beachPoints).addTo(map);
 		L.mapbox.featureLayer(beachPoints).addTo(map);
 	},
-	addWeather: function(){
+	seeDetail: function(){
 		console.log('this is the weather');
+		
+
+
+
 	}
 
 };
