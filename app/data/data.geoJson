@@ -1,23 +1,0 @@
-
-{
-    features:  [
-     {
-    geometry:  {
-    coordinates:  [
-    -80.00569915771484,
-    32.98780059814453
-    ],
-    type: "Point"
-    },
-    properties:  {
-    description: "",
-    id: "marker-marker-hvzultsk20",
-    marker-color: "#3887be",
-    marker-size: "medium",
-    marker-symbol: "embassy",
-    title: "Welcome to Mapbox!"
-    },
-    type: "Feature"
-    }
-    ],
-}
