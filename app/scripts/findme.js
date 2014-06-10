@@ -34,7 +34,7 @@ var memap = {
         }
      
         map.on('locationfound', function(e) {
-            map.fitBounds(e.bounds);
+            // map.fitBounds(e.bounds);
 
             meLayer.setGeoJSON({
                 type: 'Feature',
@@ -51,6 +51,7 @@ var memap = {
 
             // And hide the geolocation button
             geolocate.parentNode.removeChild(geolocate);
+            console.log(e.latlng.lng, e.latlng.lat);
         });
 
         // If the user chooses not to allow their location
