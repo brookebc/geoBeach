@@ -94,6 +94,54 @@ var beachPoints = [
       		"type": "Point",
       		"coordinates": [-79.765,32.79639]
 		}
+	},
+	{
+	"type": "Feature",
+    "properties": {
+		"name":"Litchfield Beach",
+		"title": "Litchfield Beach",
+		"popupContent": "Litchfield Beach",
+		"amenity": "free-parking",
+		"marker-color": "#1087bf",
+		"marker-size": "medium",
+		"marker-symbol": "swimming"
+		},
+    	"geometry": {
+      		"type": "Point",
+      		"coordinates": [-79.0997,33.4669]
+		}
+	},
+	{
+	"type": "Feature",
+    "properties": {
+		"name":"Pawley's Island Beach",
+		"title": "Pawley's Island Beach",
+		"popupContent": "Pawley's Island Beach",
+		"amenity": "free-parking",
+		"marker-color": "#1087bf",
+		"marker-size": "medium",
+		"marker-symbol": "swimming"
+		},
+    	"geometry": {
+      		"type": "Point",
+      		"coordinates": [-79.125,33.425833]
+		}
+	},
+	{
+	"type": "Feature",
+    "properties": {
+		"name":"Huntington Beach State Park",
+		"title": "Huntington Beach State Park",
+		"popupContent": "Huntington Beach State Park",
+		"amenity": "free-parking",
+		"marker-color": "#1087bf",
+		"marker-size": "medium",
+		"marker-symbol": "swimming"
+		},
+    	"geometry": {
+      		"type": "Point",
+      		"coordinates": [-79.0611,33.5139]
+		}
 	}
 ];
 	

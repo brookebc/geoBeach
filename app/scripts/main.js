@@ -17,7 +17,6 @@ var beachmap = {
 	},
 	initEvents: function() {
 		$('.findbeaches').on('click', '.beachme', this.addBeaches);
-		$('#map').on('click', '.showdetail',this.seeDetail);
 		
 	},
 	addBeaches: function(event) {
@@ -26,13 +25,6 @@ var beachmap = {
 
 		// L.geoJson(beachPoints).addTo(map);
 		L.mapbox.featureLayer(beachPoints).addTo(map);
-	},
-	seeDetail: function(){
-		console.log('this is the weather');
-		
-
-
-
 	}
 
 };
